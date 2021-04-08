@@ -1,4 +1,4 @@
-# Dashcore Library
+# Absolutecore Library
 
 [![NPM Version](https://img.shields.io/npm/v/@dashevo/dashcore-lib)](https://www.npmjs.com/package/@dashevo/dashcore-lib)
 [![Build Status](https://img.shields.io/travis/com/dashevo/dashcore-lib)](https://travis-ci.org/dashevo/dashcore-lib)
