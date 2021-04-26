@@ -5,9 +5,9 @@
 [![Release Date](https://img.shields.io/github/release-date/dashevo/dashcore-lib)](https://github.com/dashevo/dashcore-lib/releases/latest)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen)](https://github.com/RichardLitt/standard-readme)
 
-A pure and powerful JavaScript Dash library.
+A pure and powerful JavaScript Absolute library.
 
-Dash is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient Dash infrastructure, and the developer community needs reliable, open-source tools to implement Dash apps and services.
+Absolute is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Dash network allows for highly resilient Absolute infrastructure, and the developer community needs reliable, open-source tools to implement Absolute apps and services.
 
 ## Table of Contents
 - [Install](#install)
@@ -21,7 +21,7 @@ Dash is a powerful new peer-to-peer platform for the next generation of financia
 ### NodeJS
 
 ```
-npm install @dashevo/dashcore-lib
+npm install @dashevo/absolutecore-lib
 ```
 
 ### Browser
@@ -29,7 +29,7 @@ npm install @dashevo/dashcore-lib
 #### CDN Standalone
 
 ```html
-<script src="https://unpkg.com/@dashevo/dashcore-lib"></script>
+<script src="https://unpkg.com/@dashevo/absolutecore-lib"></script>
 <script> 
 const { PrivateKey } = dashcore;
 const privateKey = new PrivateKey();
@@ -40,7 +40,7 @@ const address = privateKey.toAddress().toString();
 
 #### Building the Browser Bundle
 
-To build a dashcore-lib full bundle for the browser:
+To build a absolutecore-lib full bundle for the browser:
 
 ```sh
 npm run build
@@ -53,7 +53,7 @@ This will generate a file named `dashcore-lib.min.js` in the `dist/` folder.
 ### Browser
 
 ```
-<script src='./dist/dashcore-lib.min.js' type="text/javascript"></script>
+<script src='./dist/absolutecore-lib.min.js' type="text/javascript"></script>
 <script>
   const PrivateKey = dashcore.PrivateKey;
   const privateKey = new PrivateKey();
@@ -75,8 +75,8 @@ Some functionality is implemented as a module that can be installed separately:
 ### Development & Tests
 
 ```sh
-git clone https://github.com/dashevo/dashcore-lib
-cd dashcore-lib
+git clone https://github.com/absolute-community/absolutecore-lib
+cd absolutecore-lib
 npm install
 ```
 
@@ -142,7 +142,7 @@ Some examples can be found [here](docs/examples.md), below is a list of direct l
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/dashevo/dashcore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/absolute-community/absaolutecore-lib/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
@@ -151,3 +151,4 @@ Code released under [the MIT license](LICENSE).
 Copyright 2013-2017 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.  
 Copyright 2016-2017 The Dash Foundation, Inc.  
 Copyright 2017-2020 Dash Core Group, Inc.  
+Copyright 2017-2021 Absolute (ABS) Development Ltd
